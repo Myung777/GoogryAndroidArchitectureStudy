@@ -1,0 +1,5 @@
+apply plugin: 'com.android.application'
+apply from: "../shared.gradle"
+dependencies {
+    implementation project(":data")
+}
